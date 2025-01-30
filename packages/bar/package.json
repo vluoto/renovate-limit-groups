@@ -39,7 +39,7 @@
     "playwright": "1.50.0",
     "playwright-qase-reporter": "2.0.16",
     "postcss": "8.4.32",
-    "postcss-styled-syntax": "0.6.4",
+    "postcss-styled-syntax": "0.7.1",
     "prettier": "3.3.3",
     "react-router": "6.22.3",
     "storybook": "8.3.5",
