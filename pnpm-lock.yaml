@@ -75,8 +75,8 @@ importers:
         specifier: 1.4.8
         version: 1.4.8
       '@swc/jest':
-        specifier: 0.2.36
-        version: 0.2.36(@swc/core@1.4.8)
+        specifier: 0.2.37
+        version: 0.2.37(@swc/core@1.4.8)
       '@testing-library/jest-dom':
         specifier: 6.5.0
         version: 6.5.0
@@ -2624,8 +2624,8 @@ packages:
     peerDependencies:
       '@swc/core': '*'
 
-  '@swc/jest@0.2.36':
-    resolution: {integrity: sha512-8X80dp81ugxs4a11z1ka43FPhP+/e+mJNXJSxiNYk8gIX/jPBtY4gQTrKu/KIoco8bzKuPI5lUxjfLiGsfvnlw==}
+  '@swc/jest@0.2.37':
+    resolution: {integrity: sha512-CR2BHhmXKGxTiFr21DYPRHQunLkX3mNIFGFkxBGji6r9uyIR5zftTOVYj1e0sFNMV2H7mf/+vpaglqaryBtqfQ==}
     engines: {npm: '>= 7.0.0'}
     peerDependencies:
       '@swc/core': '*'
@@ -9656,7 +9656,7 @@ snapshots:
       '@swc/core': 1.5.7
       jsonc-parser: 3.3.1
 
-  '@swc/jest@0.2.36(@swc/core@1.4.8)':
+  '@swc/jest@0.2.37(@swc/core@1.4.8)':
     dependencies:
       '@jest/create-cache-key-function': 29.7.0
       '@swc/core': 1.4.8
