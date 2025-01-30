@@ -12,7 +12,7 @@
     },
     {
       "matchFileNames": ["packages/bar/**"],
-      "prConcurrentLimit": 3
+      "prConcurrentLimit": 4
     },
     {
       "groupName": "all non-major dependencies",
