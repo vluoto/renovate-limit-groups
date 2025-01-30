@@ -45,7 +45,7 @@
     "@types/react-transition-group": "4.4.6",
     "@types/react-virtualized-auto-sizer": "1.0.1",
     "@types/react-window": "1.8.5",
-    "@types/uuid": "9.0.2",
+    "@types/uuid": "10.0.0",
     "@types/yup": "0.29.14",
     "concurrently": "8.2.0",
     "core-js": "3.31.0",
