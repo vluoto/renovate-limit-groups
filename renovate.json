@@ -1,12 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    ":prConcurrentLimitNone",
-    ":prHourlyLimitNone"
-  ],
+  "extends": ["config:recommended"],
   "additionalBranchPrefix": "{{parentDir}}-",
   "commitMessageSuffix": "{{#if parentDir}} in {{parentDir}}{{/if}}",
+  "prConcurrentLimit": 666,
+  "prHourlyLimit": 420,
   "packageRules": [
     {
       "matchFileNames": ["packages/foo/**"],
