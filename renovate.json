@@ -9,6 +9,10 @@
   "commitMessageSuffix": "{{#if parentDir}} in {{parentDir}}{{/if}}",
   "packageRules": [
     {
+      "matchFileNames": ["**/package.json"],
+      "prConcurrentLimit": 3
+    },
+    {
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
       "matchCurrentVersion": ">=1.0.0",
