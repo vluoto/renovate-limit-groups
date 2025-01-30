@@ -60,8 +60,8 @@ importers:
         specifier: 8.3.5
         version: 8.3.5(react@18.2.0)(storybook@8.3.5)
       '@storybook/addon-webpack5-compiler-swc':
-        specifier: 1.0.5
-        version: 1.0.5(webpack@5.97.1(@swc/core@1.4.8)(esbuild@0.21.5))
+        specifier: 2.0.0
+        version: 2.0.0(webpack@5.97.1(@swc/core@1.4.8)(esbuild@0.21.5))
       '@storybook/blocks':
         specifier: 8.3.5
         version: 8.3.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.3.5)
@@ -2153,12 +2153,12 @@ packages:
     peerDependencies:
       storybook: ^8.5.0
 
-  '@storybook/addon-webpack5-compiler-swc@1.0.5':
-    resolution: {integrity: sha512-1NlM3noit2vA22OyWb8Ma2lhcEKCS1Snv2kr+EkaVABUqNDfVc9AD/GgYQhF7F/2CoF5N2JU7uzXDzFHd5TzZg==}
-    engines: {node: '>=18'}
-
   '@storybook/addon-webpack5-compiler-swc@1.0.6':
     resolution: {integrity: sha512-QiZheKKYsUCAtPn9phwtmOBAWBNxnxyfu5E+HUSQIbX94pTwc3ROufJ3g1R/RMQZcklOYXpSI0V8FS1m6aUVkg==}
+    engines: {node: '>=18'}
+
+  '@storybook/addon-webpack5-compiler-swc@2.0.0':
+    resolution: {integrity: sha512-8lL6vzXMgBFYQ89TFNPG4KjQ1WcRjKOubCTsnv0lRWC6KbF1ipyMFiEDpHOxxHbKhfk2kvQKZVqt8KLNV5zwcg==}
     engines: {node: '>=18'}
 
   '@storybook/blocks@8.3.5':
@@ -9040,18 +9040,18 @@ snapshots:
       memoizerific: 1.11.3
       storybook: 8.5.0(prettier@3.3.3)
 
-  '@storybook/addon-webpack5-compiler-swc@1.0.5(webpack@5.97.1(@swc/core@1.4.8)(esbuild@0.21.5))':
-    dependencies:
-      '@swc/core': 1.10.12
-      swc-loader: 0.2.6(@swc/core@1.10.12)(webpack@5.97.1(@swc/core@1.4.8)(esbuild@0.21.5))
-    transitivePeerDependencies:
-      - '@swc/helpers'
-      - webpack
-
   '@storybook/addon-webpack5-compiler-swc@1.0.6(webpack@5.97.1(@swc/core@1.5.7)(esbuild@0.24.2))':
     dependencies:
       '@swc/core': 1.10.12
       swc-loader: 0.2.6(@swc/core@1.10.12)(webpack@5.97.1(@swc/core@1.5.7)(esbuild@0.24.2))
+    transitivePeerDependencies:
+      - '@swc/helpers'
+      - webpack
+
+  '@storybook/addon-webpack5-compiler-swc@2.0.0(webpack@5.97.1(@swc/core@1.4.8)(esbuild@0.21.5))':
+    dependencies:
+      '@swc/core': 1.10.12
+      swc-loader: 0.2.6(@swc/core@1.10.12)(webpack@5.97.1(@swc/core@1.4.8)(esbuild@0.21.5))
     transitivePeerDependencies:
       - '@swc/helpers'
       - webpack
