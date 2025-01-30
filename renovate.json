@@ -9,7 +9,11 @@
   "commitMessageSuffix": "{{#if parentDir}} in {{parentDir}}{{/if}}",
   "packageRules": [
     {
-      "matchFileNames": ["**/package.json"],
+      "matchFileNames": ["packages/foo/**"],
+      "prConcurrentLimit": 3
+    },
+    {
+      "matchFileNames": ["packages/bar/**"],
       "prConcurrentLimit": 3
     },
     {
