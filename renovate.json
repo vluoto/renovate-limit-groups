@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone"
+  ],
+  "additionalBranchPrefix": "{{parentDir}}-",
+  "commitMessageSuffix": "{{#if parentDir}} in {{parentDir}}{{/if}}",
+  "packageRules": [
+    {
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
+      "matchCurrentVersion": ">=1.0.0",
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["minor", "patch"]
+    }
+  ]
+}
