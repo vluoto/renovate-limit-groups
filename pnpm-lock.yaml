@@ -117,8 +117,8 @@ importers:
         specifier: 9.16.0
         version: 9.16.0
       eslint-plugin-storybook:
-        specifier: 0.11.1
-        version: 0.11.1(eslint@9.16.0)(typescript@5.4.2)
+        specifier: 0.11.2
+        version: 0.11.2(eslint@9.16.0)(typescript@5.4.2)
       jest:
         specifier: 29.7.0
         version: 29.7.0(@types/node@22.8.4)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.4.8)(@types/node@22.8.4)(typescript@5.4.2))
@@ -4060,12 +4060,6 @@ packages:
         optional: true
       jest:
         optional: true
-
-  eslint-plugin-storybook@0.11.1:
-    resolution: {integrity: sha512-yGKpAYkBm/Q2hZg476vRUAvd9lAccjjSvzU5nYy3BSQbKTPy7uopx7JEpwk2vSuw4weTMZzWF64z9/gp/K5RCg==}
-    engines: {node: '>= 18'}
-    peerDependencies:
-      eslint: '>=6'
 
   eslint-plugin-storybook@0.11.2:
     resolution: {integrity: sha512-0Z4DUklJrC+GHjCRXa7PYfPzWC15DaVnwaOYenpgXiCEijXPZkLKCms+rHhtoRcWccP7Z8DpOOaP1gc3P9oOwg==}
@@ -11375,7 +11369,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-storybook@0.11.1(eslint@9.16.0)(typescript@5.4.2):
+  eslint-plugin-storybook@0.11.2(eslint@9.16.0)(typescript@5.4.2):
     dependencies:
       '@storybook/csf': 0.1.13
       '@typescript-eslint/utils': 8.22.0(eslint@9.16.0)(typescript@5.4.2)
