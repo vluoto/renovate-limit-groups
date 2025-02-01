@@ -115,7 +115,7 @@
     "react-intl": "5.25.1",
     "react-mapbox-gl": "5.1.1",
     "react-modal": "3.16.1",
-    "react-router-dom": "6.21.0",
+    "react-router-dom": "7.1.5",
     "react-transition-group": "4.4.5",
     "react-virtualized-auto-sizer": "1.0.7",
     "react-window": "1.8.9",
