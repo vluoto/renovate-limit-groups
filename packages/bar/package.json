@@ -41,7 +41,7 @@
     "postcss": "8.4.32",
     "postcss-styled-syntax": "0.6.4",
     "prettier": "3.3.3",
-    "react-router": "6.22.3",
+    "react-router": "7.1.5",
     "storybook": "8.3.5",
     "stylelint": "16.10.0",
     "stylelint-config-recommended": "14.0.1",
