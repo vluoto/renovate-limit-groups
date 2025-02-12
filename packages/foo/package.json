@@ -76,7 +76,7 @@
     "webpack-merge": "5.10.0"
   },
   "dependencies": {
-    "@hookform/resolvers": "3.3.4",
+    "@hookform/resolvers": "4.0.0",
     "@mapbox/mapbox-gl-draw": "1.4.1",
     "@tanstack/eslint-plugin-query": "5.62.1",
     "@tanstack/react-query": "5.56.2",
