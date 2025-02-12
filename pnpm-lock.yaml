@@ -343,8 +343,8 @@ importers:
         specifier: 8.5.0
         version: 8.5.0(react@18.2.0)(storybook@8.5.0(prettier@3.3.3))
       '@storybook/addon-webpack5-compiler-swc':
-        specifier: 1.0.6
-        version: 1.0.6(webpack@5.97.1(@swc/core@1.5.7)(esbuild@0.24.2))
+        specifier: 2.1.0
+        version: 2.1.0(webpack@5.97.1(@swc/core@1.5.7)(esbuild@0.24.2))
       '@storybook/react':
         specifier: 8.5.0
         version: 8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@3.3.3)))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.5.0(prettier@3.3.3))(typescript@5.6.3)
@@ -2157,8 +2157,8 @@ packages:
     resolution: {integrity: sha512-1NlM3noit2vA22OyWb8Ma2lhcEKCS1Snv2kr+EkaVABUqNDfVc9AD/GgYQhF7F/2CoF5N2JU7uzXDzFHd5TzZg==}
     engines: {node: '>=18'}
 
-  '@storybook/addon-webpack5-compiler-swc@1.0.6':
-    resolution: {integrity: sha512-QiZheKKYsUCAtPn9phwtmOBAWBNxnxyfu5E+HUSQIbX94pTwc3ROufJ3g1R/RMQZcklOYXpSI0V8FS1m6aUVkg==}
+  '@storybook/addon-webpack5-compiler-swc@2.1.0':
+    resolution: {integrity: sha512-mCzNtuqY8LJqj/2vW12o3S/UujRSBFstxRqhOUErrbbOBRyM6RgcPuvytDdRv1npFi8OaKOIz3SoJBT/EtAN3A==}
     engines: {node: '>=18'}
 
   '@storybook/blocks@8.3.5':
@@ -9048,7 +9048,7 @@ snapshots:
       - '@swc/helpers'
       - webpack
 
-  '@storybook/addon-webpack5-compiler-swc@1.0.6(webpack@5.97.1(@swc/core@1.5.7)(esbuild@0.24.2))':
+  '@storybook/addon-webpack5-compiler-swc@2.1.0(webpack@5.97.1(@swc/core@1.5.7)(esbuild@0.24.2))':
     dependencies:
       '@swc/core': 1.10.12
       swc-loader: 0.2.6(@swc/core@1.10.12)(webpack@5.97.1(@swc/core@1.5.7)(esbuild@0.24.2))
